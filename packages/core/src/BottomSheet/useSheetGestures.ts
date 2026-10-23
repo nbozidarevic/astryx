@@ -85,7 +85,7 @@ import {
   type TouchEvent as ReactTouchEvent,
   type UIEvent as ReactUIEvent,
 } from 'react';
-import {useMediaQuery} from '../hooks';
+import {useMediaQuery} from '../hooks/useMediaQuery';
 import {
   computeDetentOffsets,
   peekOffsetFor,

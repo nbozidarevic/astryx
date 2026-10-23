@@ -34,7 +34,7 @@ import {
 } from 'react';
 import * as stylex from '@stylexjs/stylex';
 import type {BaseProps} from '../BaseProps';
-import {useDevWarning} from '../hooks';
+import {useDevWarning} from '../hooks/useDevWarning';
 import {useScrollableArea} from '../hooks/useScrollableArea';
 import {
   borderVars,
