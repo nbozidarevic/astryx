@@ -2,7 +2,7 @@
 
 Every native spec is a standard knowledge record
 ([`architecture:knowledge-contracts`](../../../docs/architecture/knowledge-contracts.md)
-INV27). The rules live in
+INV27), checked by `pnpm check:knowledge`. The rules live in
 [AST-093 (Native component guidelines)](../../../docs/specs/AST-093-native-component-guidelines/spec.md),
 which applies [AST-082 (Native-first surfaces)](../../../docs/specs/AST-082-native-first-surfaces/spec.md).
 
@@ -54,7 +54,8 @@ the same everywhere. A native spec never renames or changes it.
 
 1. Copy the template for the record's kind from `docs/templates/knowledge/` to
    the location above, and fill its frontmatter and every section.
-2. Run the rubric in `docs/contributing/spec-writing.md`.
+2. Run `pnpm check:knowledge` and the rubric in
+   `docs/contributing/spec-writing.md`.
 3. Open a pull request that changes only files under `packages/native/`. A spec
    can land on its own or with the component it describes.
 
