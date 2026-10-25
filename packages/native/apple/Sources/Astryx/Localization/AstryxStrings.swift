@@ -12,6 +12,8 @@ enum AstryxStrings {
   static var spinnerLoading: String { localized("@astryx.spinner.loading", "Loading") }
   /// The indicator after an optional field's label.
   static var fieldOptional: String { localized("@astryx.field.optional", "Optional") }
+  /// What VoiceOver reads for a read-only field, which SwiftUI cannot mark.
+  static var inputReadOnly: String { localized("@astryx.input.readOnly", "Read only") }
   /// The indicator after a required field's label.
   static var fieldRequired: String { localized("@astryx.field.required", "Required") }
   /// The hover and pointer tip on an input's clear button.
